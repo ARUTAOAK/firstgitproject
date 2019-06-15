@@ -15,6 +15,7 @@ public class MyTest {
   @AfterTest
   public void afterTest() {
 	  System.out.println("After Test");
+	  System.out.println("first change");
   }
 
 }
