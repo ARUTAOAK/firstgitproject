@@ -18,7 +18,7 @@ public class DressSelection {
 		
 		Actions act= new Actions(driver);
 		act.moveToElement(tab);
-		
+		System.out.println("Hi  master");
 		
 		WebElement subtab=driver.findElement(By.linkText("Dresses"));
 		subtab.click();
