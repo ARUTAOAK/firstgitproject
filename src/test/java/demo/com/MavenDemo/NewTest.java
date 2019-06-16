@@ -14,9 +14,11 @@ public class NewTest {
 
 	@Test
 	public void f() {
-		LoginInfo lgn = new LoginInfo(driver);
-		lgn.login();
-		// System.out.println("run");
+		LoginInfo log=new LoginInfo(driver);
+		log.login();
+		
+		DressSelection ds=new DressSelection(driver);
+		ds.Selection();
 	}
 
 	@BeforeTest
